@@ -1,0 +1,12 @@
+Simulator for miljø,ålinger beskriver en ekte kretskort med sensorer. 
+
+SimSim programmet prøver å simulere det kortet.
+Det meste av dokumentasjon stemmer derfor også SimSim men det vil forekomme noen "overstemmelser".
+For eksamepel:
+- format på dataene som SimSim sender stemmer ike helt med formatet som er beskrevet for kretskortet: meldingsdata fra SisSim har et ekstra felt 'E' (med 8 tegn) 
+  Dette gjør at alle etterfølgende datafelt E, F, G, ... er 'flyttet' for ett bokstav i alfabetet og (9 tegnposisjoner i meldingen). 
+  En melding fra SimSim er derfor noe lengre enn en melding beskrevet i dokumentasjonen.
+- enkelte komandoer som støttes av kretskortet støttes ikke av SimSim
+
+
+
